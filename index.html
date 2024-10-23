@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice 4</title>
+</head>
+<body>
+    <header>
+        <img src="imglogo.png" alt="logo du site" width="50" height="50">
+    <!--nav avec ancre-->
+           <nav> 
+            <ul>
+                <li><a href="index.html" title="accueil">Accueil</a></li>
+                <li><a href="#apropos" title="a propos">A propos</a></li>
+                <li><a href="#contact" title="contact">Contact</a></li>
+                <li><a href="#FAQ" title="FAQ">FAQ</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <h1>Nom de l'entreprise</h1>
+        <h2 id="apropos">A propos</h2>
+        <div>
+            <!--tableau tout moche-->
+        <table class="tableau">
+            <colgroup>
+                <col span="1" style="background-color: aqua;" >
+                <col span="1" style="background-color: red;" >
+                <col span="1" style="background-color: greenyellow;">
+            </colgroup>
+        <tr>
+            <th>Nom du membre</th>
+            <th>Poste occupé</th>
+            <th>Date d'embauche</th>
+        </tr>
+        <tr>
+            <th>michel</th>
+            <th>comptable</th>
+            <th>9/10/2005</th>
+        </tr>
+        <tr>
+            <th>didier</th>
+            <th>machine a café</th>
+            <th>Pas embaucher</th>
+        </tr>
+        </table>
+        <!--fin du tableau tout moche-->
+    </div>
+    <div>
+        <!--image avec legende-->
+    <figure>
+            <img src="genscontent.png" alt="gens content">
+            <figcaption>une personne contente</figcaption>
+        </figure>
+    </div>
+    <div>
+        <!--map-->
+        <img src="map.png" alt="carte avec l'emplacement de l'entreprise" usemap="#planmap" width="500" height="500">
+        <map name="planmap">
+            <area shape="rect" coords="0,0,100,100" href="https://www.google.fr/maps/place/Chambre+de+Commerce+et+D'Industrie+du+Cher/@47.0454021,2.3322838,1506m/data=!3m1!1e3!4m6!3m5!1s0x47fa944458a73079:0x4906c87d5e1d7a3c!8m2!3d47.045437!4d2.3368518!16s%2Fg%2F121hf5d6?entry=ttu&g_ep=EgoyMDI0MTAyMC4xIKXMDSoASAFQAw%3D%3D" alt="map CCI" target="_blank">
+            <area shape="rect" coords="101,101,500,500" href="http://www.cher.cci.fr/" alt="site de la CCI" target="_blank">
+        </map>
+    </div>
+    <h2 id="FAQ">FAQ</h2>
+    <details>
+        <summary>Qui sommes nous ?</summary>
+        <p>DES PAINS AU CHOCOLAT !!</p>   
+    </details>
+    <details>
+        <summary>Quesqu'on dit au chocolatine ?</summary>
+        <p>bah rien parce que je veut pas une mauvaise note 🤞</p>
+    </details>
+    </main>
+    <footer>
+        <img src="imglogo.png" alt="logo du site" width="50" height="50">
+        <!--nav avec ancre-->
+           <nav> 
+            <ul>
+                <li><a href="index.html" title="accueil">Accueil</a></li>
+                <li><a href="#apropos" title="a propos">A propos</a></li>
+                <li><a href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p><small><a href="https://www.amazon.fr/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM&ref_=footer_cou" target="_blank">Mention légale</a></small></p>
+<!--logo reseau sociaux-->
+       <a href="https://www.instagram.com/" title="insta" target="_blank"><img src="logoinsta.png" title="logo insta" width="50" height="50"> </a>
+       <a href="https://facebook.com/" title="facebook" target="_blank"><img src="logofaceboook.png" title="logo facebook" width="50" height="50"> </a>
+       <a href="https://twitter.com/" title="insta" target="_blank"><img src="logotwitter.png" title="logo twitter" width="50" height="50"> </a>
+      <!--contact-->
+       <h4 id="contact">Contact</h4>
+       <address>
+        <p>14 rue de la Chevre Blanche</p>
+        <p>Tel : <a href="tel:0202020202">02-02-02-02-02</a></p>
+        <p>E-mail : <a href="mailto:email@email.fr">email@email.fr</a></p>
+       </address>
+            
+    </footer>
+    
+</body>
+</html>
